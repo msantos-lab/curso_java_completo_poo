@@ -34,8 +34,6 @@ public class Application {
             conta = new Conta(numeroConta, nome);
         }
         
-        
-
         System.out.println("Account data: ");
         System.out.println(conta);
         System.out.println();

@@ -9,7 +9,7 @@ import polimorfismo.entities.Product;
 import polimorfismo.entities.ImportedProduct;
 import polimorfismo.entities.UsedProduct;
 
-public class Programa {
+public class Program {
     public static void main(String[] args) {
 
         Locale.setDefault(Locale.US);

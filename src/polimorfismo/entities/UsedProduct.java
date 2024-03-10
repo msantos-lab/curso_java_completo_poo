@@ -23,9 +23,5 @@ public class UsedProduct extends Product {
     public String priceTag() {
         return this.getName() + " (used) $ " + this.getPrice() + " (Manufacture date: " + manufactureDate.format(fmtDate) + ")";
     }
-
-    
-
-
     
 }

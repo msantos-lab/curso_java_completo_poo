@@ -4,6 +4,7 @@ public class ImportedProduct extends Product {
 
     private Double customsFee;
 
+
     public ImportedProduct() {
         super();
     }
@@ -16,6 +17,7 @@ public class ImportedProduct extends Product {
     public Double totalPrice() {
         return this.getPrice() + customsFee;
     }
+    
 
     @Override
     public String priceTag() {
